@@ -1,0 +1,26 @@
+{
+  "name": "typescript-import-resolver-repro",
+  "version": "1.0.0",
+  "main": "app/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.26.8",
+    "@eslint/js": "^9.20.0",
+    "@tsconfig/recommended": "^1.0.8",
+    "@typescript-eslint/eslint-plugin": "^8.24.1",
+    "@typescript-eslint/parser": "^8.24.1",
+    "eslint": "^9.20.1",
+    "eslint-import-resolver-typescript": "3.7.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-workspaces": "^0.10.1",
+    "globals": "^16.0.0",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.24.1"
+  }
+}

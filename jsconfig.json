@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+      "baseUrl": ".",
+    "paths": {
+      "aliased/*": [
+        "./libs/aliased/*"
+      ]
+    }
+  },
+  "include": ["**/*.js"],
+  "exclude": ["node_modules", "dist"]
+}
