@@ -1,22 +1,10 @@
 {
   "extends": "./node_modules/@tsconfig/recommended/tsconfig.json",
   "compilerOptions": {
-    "allowJs": true,
-    "checkJs": false,
     "baseUrl": ".",
-    "incremental": true,
-    "jsx": "react-jsx",
-    "module": "ES2022",
-    "moduleResolution": "bundler",
-    "outDir": "./dist/",
     "paths": {
       "aliased/*": ["libs/aliased/*"],
     },
-    "resolveJsonModule": true,
-    "sourceMap": true,
-    "target": "ES2022",
-    "types": ["node"],
-    "typeRoots": ["./node_modules/@types"]
   },
   "include": ["**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
